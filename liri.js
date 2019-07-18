@@ -83,4 +83,4 @@ function spotifyThisSong(song) {
         fs.appendFileSync('log.txt', "\r\n" + "Preview Link: " + data.tracks.items[0].preview_url + "\r\n", 'utf8');
         fs.appendFileSync('log.txt', "\r\n" + "-------------------------------------------------------" + "\r\n", 'utf8');
     });
-}
+} 
