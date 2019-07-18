@@ -84,3 +84,5 @@ function spotifyThisSong(song) {
         fs.appendFileSync('log.txt', "\r\n" + "-------------------------------------------------------" + "\r\n", 'utf8');
     });
 }  
+
+
