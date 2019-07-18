@@ -10,6 +10,7 @@ var spotify = new Spotify(keys.spotify);
 var moment = require('moment');
 
 
+
 var command = process.argv[2];
 var input = process.argv[3];
 
